@@ -1,0 +1,20 @@
+This is not so automated yet.
+
+For more details, see
+http://download.oracle.com/javase/6/docs/technotes/guides/idl/GShome.html
+
+
+You must start the ORB Daemon first:
+  orbd -ORBInitialPort 1050 -ORBInitialHost localhost&
+
+  java HelloServer -ORBInitialPort 1050 -ORBInitialHost localhost &
+
+  java HelloClient -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Windows users: Delete the & from above and use the start command as in:
+
+  start java HelloServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+
+You can run these on different machines. This is aimed at helping you to get
+started.
