@@ -1,8 +1,8 @@
 module HelloApp
 {
-  interface Hello
-  {
-    string sayHello();
-    oneway void shutdown();
-  };
+    interface Hello
+    {
+        string sayHello();
+        oneway void shutdown();
+    };
 };

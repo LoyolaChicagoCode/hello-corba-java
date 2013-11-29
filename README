@@ -5,7 +5,7 @@ http://download.oracle.com/javase/6/docs/technotes/guides/idl/GShome.html
 
 
 You must start the ORB Daemon first:
-  orbd -ORBInitialPort 1050 -ORBInitialHost localhost&
+  orbd -ORBInitialPort 1050 &
 
   java HelloServer -ORBInitialPort 1050 -ORBInitialHost localhost &
 
